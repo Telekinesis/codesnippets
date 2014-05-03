@@ -1,0 +1,666 @@
+2014-04-30 06:53:40,143 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2014-04-30 06:53:40,285 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Creating symlink: /sdh/mrlocal/bi21d/taskTracker/biadmin4/jobcache/job_201404250945_0014/jars/job.jar <- /sdf/mrlocal/bi21d/taskTracker/biadmin4/jobcache/job_201404250945_0014/attempt_201404250945_0014_m_000000_0/work/job.jar
+2014-04-30 06:53:40,289 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Creating symlink: /sdh/mrlocal/bi21d/taskTracker/biadmin4/jobcache/job_201404250945_0014/jars/.job.jar.crc <- /sdf/mrlocal/bi21d/taskTracker/biadmin4/jobcache/job_201404250945_0014/attempt_201404250945_0014_m_000000_0/work/.job.jar.crc
+2014-04-30 06:53:40,291 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Creating symlink: /sdh/mrlocal/bi21d/taskTracker/biadmin4/jobcache/job_201404250945_0014/jars/com <- /sdf/mrlocal/bi21d/taskTracker/biadmin4/jobcache/job_201404250945_0014/attempt_201404250945_0014_m_000000_0/work/com
+2014-04-30 06:53:40,293 INFO org.apache.hadoop.filecache.TrackerDistributedCacheManager: Creating symlink: /sdh/mrlocal/bi21d/taskTracker/biadmin4/jobcache/job_201404250945_0014/jars/META-INF <- /sdf/mrlocal/bi21d/taskTracker/biadmin4/jobcache/job_201404250945_0014/attempt_201404250945_0014_m_000000_0/work/META-INF
+2014-04-30 06:53:40,632 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2014-04-30 06:53:40,659 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@ea00ea
+2014-04-30 06:53:41,033 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 660
+2014-04-30 06:53:41,821 INFO org.apache.hadoop.mapred.MapTask: data buffer = 570125760/633473072
+2014-04-30 06:53:41,822 INFO org.apache.hadoop.mapred.MapTask: record buffer = 3295523/3661693
+2014-04-30 06:53:41,925 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Components location /sdc/mrlocal/bi21d/taskTracker/distcache/776823080592154220_1921383210_114441492/bigant-test-001/user/biadmin4/analytic-root/configuration/af-components
+2014-04-30 06:53:42,647 INFO com.spss.ac.legacy.tree.TreeComponent: Load tree component
+2014-04-30 06:53:42,751 INFO com.spss.ac.legacy.neuralnet.NeuralnetComponent: Load neuralnet component
+2014-04-30 06:53:42,784 INFO com.spss.ac.tcm.score.TCMScoreComponent: Load Score TCM
+2014-04-30 06:53:42,796 INFO com.spss.ac.tcm.modeling.TCMTaskParallelMapComponent: +
+2014-04-30 06:53:42,798 INFO com.spss.ac.tcm.modeling.TCMWorkerMapComponent: +
+2014-04-30 06:53:42,799 INFO com.spss.ac.tcm.modeling.TCMWorkerReduceComponent: +
+2014-04-30 06:53:42,829 INFO com.spss.ac.tcm.score.TCMScoreComponent: getDescriptor()
+2014-04-30 06:53:42,846 INFO com.spss.ac.tcm.score.TCMScoreReduceComponent: getDescriptor
+2014-04-30 06:53:42,846 INFO com.spss.ac.tcm.modeling.TCMTaskParallelMapComponent: +
+2014-04-30 06:53:42,855 INFO com.spss.ac.tcm.modeling.TCMWorkerMapComponent: +
+2014-04-30 06:53:42,855 INFO com.spss.ac.tcm.modeling.TCMWorkerReduceComponent: +
+2014-04-30 06:53:42,855 INFO com.spss.ac.tcm.modeling.TCMComponent: +
+2014-04-30 06:53:42,855 INFO com.spss.ac.tcm.analysis.rca.RCAComponent: getDescriptor
+2014-04-30 06:53:42,858 INFO com.spss.ac.tcm.analysis.rca.RCAMapComponent: getDescriptor
+2014-04-30 06:53:42,859 INFO com.spss.ac.tcm.analysis.rca.RCAReduceComponent: getDescriptor
+2014-04-30 06:53:42,859 INFO com.spss.ac.tcm.analysis.sa.SAComponent: getDescriptor
+2014-04-30 06:53:42,859 INFO com.spss.ac.tcm.analysis.sa.SAMapComponent: getDescriptor
+2014-04-30 06:53:42,859 INFO com.spss.ac.tcm.analysis.od.ODComponent: getDescriptor
+2014-04-30 06:53:42,859 INFO com.spss.ac.tcm.analysis.sa.SAMapComponent: getDescriptor
+2014-04-30 06:53:42,864 INFO com.spss.ac.tcm.modeling.TCMDirector: +
+2014-04-30 06:53:42,865 INFO com.spss.ac.tcm.modeling.TCMWorkerDirector: +
+2014-04-30 06:53:42,865 INFO com.spss.ac.tcm.analysis.rca.RCADirector: getDescriptor
+2014-04-30 06:53:42,865 INFO com.spss.ac.tcm.analysis.sa.SADirector: getDescriptor
+2014-04-30 06:53:42,865 INFO com.spss.ac.tcm.analysis.od.ODDirector: getDescriptor
+2014-04-30 06:53:42,917 INFO com.spss.ac.linear.LinearComponent: getDescriptor
+2014-04-30 06:53:42,919 INFO com.spss.ac.linear.LinearMapComponent: getDescriptor
+2014-04-30 06:53:42,919 INFO com.spss.ac.linear.LinearReduceComponent: getDescriptor
+2014-04-30 06:53:42,924 INFO com.spss.ac.linear.LinearIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:42,931 INFO com.spss.ac.legacy.tascoring.TAScoringComponent: Load tascoring component
+2014-04-30 06:53:42,947 INFO com.spss.ac.legacy.rstats.RStatsComponent: Load R stats component
+2014-04-30 06:53:42,947 INFO com.spss.ac.legacy.rstats.RApplierComponent: Load R Applier component
+2014-04-30 06:53:42,949 INFO com.spss.ac.legacy.rstats.RStatsComponent: Load R stats component
+2014-04-30 06:53:42,949 INFO com.spss.ac.legacy.rstats.RProcessComponent: Load R Process component
+2014-04-30 06:53:42,968 INFO com.spss.ac.tsdp.TSDPMapComponent: Enter getDescriptor
+2014-04-30 06:53:42,986 INFO com.spss.ac.tsdp.TSDPReduceComponent: Enter getDescriptor
+2014-04-30 06:53:42,986 INFO com.spss.ac.tsdp.TSDPComponent: Enter getDescriptor
+2014-04-30 06:53:42,989 INFO com.spss.ac.tsdp.TSDPDirector: Enter getDescriptor
+2014-04-30 06:53:43,075 INFO com.spss.ac.stemdp.stemdp.StemdpComponent: getDescriptor
+2014-04-30 06:53:43,087 INFO com.spss.ac.stemdp.stemdp.StemdpMapComponent: getDescriptor
+2014-04-30 06:53:43,087 INFO com.spss.ac.stemdp.stemdp.StemdpReduceComponent: getDescriptor
+2014-04-30 06:53:43,087 INFO com.spss.ac.stemdp.stemdp.centroid.CentroidComponent: getDescriptor
+2014-04-30 06:53:43,087 INFO com.spss.ac.stemdp.stemdp.centroid.CentroidMapComponent: getDescriptor
+2014-04-30 06:53:43,087 INFO com.spss.ac.stemdp.stemdp.centroid.CentroidReduceComponent: getDescriptor
+2014-04-30 06:53:43,087 INFO com.spss.ac.stemdp.stemdp.kde.KDEMapComponent: KDEMapComponent: getDescriptor
+2014-04-30 06:53:43,088 INFO com.spss.ac.stemdp.stemdp.kde.KDEReduceComponent: KDEReduceComponent: getDescriptor
+2014-04-30 06:53:43,088 INFO com.spss.ac.stemdp.stemdp.count.CountMapComponent: CountMapComponent: getDescriptor
+2014-04-30 06:53:43,088 INFO com.spss.ac.stemdp.stemdp.count.CountReduceComponent: CountReduceComponent: getDescriptor
+2014-04-30 06:53:43,088 INFO com.spss.ac.stemdp.stemdp.regular.ParseRegularMapComponent: getDescriptor
+2014-04-30 06:53:43,088 INFO com.spss.ac.stemdp.stemdp.regular.ParseRegularReduceComponent: getDescriptor
+2014-04-30 06:53:43,088 INFO com.spss.ac.stemdp.stemdp.range.RangeMapComponent: getDescriptor
+2014-04-30 06:53:43,089 INFO com.spss.ac.stemdp.stemdp.range.RangeReduceComponent: getDescriptor
+2014-04-30 06:53:43,089 INFO com.spss.ac.stemdp.stemdp.scoring.ScoreComponent: getDescriptor
+2014-04-30 06:53:43,115 INFO com.spss.ac.stemdp.stemdp.centroid.CentroidExecutionDirector: getDescriptor
+2014-04-30 06:53:43,115 INFO com.spss.ac.stemdp.stemdp.regular.ParseRegularIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:43,115 INFO com.spss.ac.stemdp.stemdp.StemdpExecutionDirector: getDescriptor
+2014-04-30 06:53:43,153 INFO com.spss.ac.association.wrapper.StarMapComponent: [star mapper] getDescriptor()
+2014-04-30 06:53:43,155 INFO com.spss.ac.association.wrapper.StarReduceComponent: [star reducer] getDescriptor()
+2014-04-30 06:53:43,155 INFO com.spss.ac.association.wrapper.StarMapComponent: [star mapper] getDescriptor()
+2014-04-30 06:53:43,169 INFO com.spss.ac.association.wrapper.StarIterativeExecutionDirector: [star director] getDescriptor()
+2014-04-30 06:53:43,178 INFO com.spss.ac.tree.chaid.ChaidMapComponent: Tree engine CHAID mapper component is loaded
+2014-04-30 06:53:43,183 INFO com.spss.ac.tree.chaid.ChaidReduceComponent: Tree engine CHAID reducer component is loaded
+2014-04-30 06:53:43,186 INFO com.spss.ac.tree.chaid.ChaidMapComponent: getDescriptor()
+2014-04-30 06:53:43,188 INFO com.spss.ac.tree.chaid.ChaidReduceComponent: getDescriptor()
+2014-04-30 06:53:43,198 INFO com.spss.ac.tree.chaid.ChaidIterativeExecutionDirector: getDescriptor()
+2014-04-30 06:53:43,226 INFO com.spss.ac.rtsdp.RTSDPMapComponent: Enter getDescriptor
+2014-04-30 06:53:43,227 INFO com.spss.ac.rtsdp.RTSDPReduceComponent: Enter getDescriptor
+2014-04-30 06:53:43,227 INFO com.spss.ac.rtsdp.RTSDPPreScoreComponent: Enter getDescriptor
+2014-04-30 06:53:43,230 INFO com.spss.ac.rtsdp.RTSDPDirector: Enter getDescriptor
+2014-04-30 06:53:43,302 INFO com.spss.ac.smartreports.SRMapComponent: Smart reports engine mapper component is loaded
+2014-04-30 06:53:43,303 INFO com.spss.ac.smartreports.SRReduceComponent: Load smart reports engine reducer component
+2014-04-30 06:53:43,313 INFO com.spss.ac.smartreports.SRIterativeExecutionDirector: Enter getDescriptor
+2014-04-30 06:53:43,325 INFO com.spss.ac.cluster.twostep.TwoStepComponent: getDescriptor
+2014-04-30 06:53:43,331 INFO com.spss.ac.cluster.twostep.TwoStepMapComponent: getDescriptor
+2014-04-30 06:53:43,332 INFO com.spss.ac.cluster.twostep.TwoStepReduceComponent: getDescriptor
+2014-04-30 06:53:43,332 INFO com.spss.ac.cluster.twostep.TwoStepReduceComponent: getDescriptor
+2014-04-30 06:53:43,337 INFO com.spss.ac.cluster.twostep.TwoStepIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:43,370 INFO com.spss.ac.stp.STPComponent: Load STP
+2014-04-30 06:53:43,376 INFO com.spss.ac.stpscore.STPScoreComponent: load STPScore
+2014-04-30 06:53:43,380 INFO com.spss.ac.stp.STPMapComponent: getDescriptor
+2014-04-30 06:53:43,380 INFO com.spss.ac.stp.STPReduceComponent: getDescriptor
+2014-04-30 06:53:43,380 INFO com.spss.ac.stpscore.STPScoreComponent: getDescriptor
+2014-04-30 06:53:43,381 INFO com.spss.ac.stpscore.STPScoreMapComponent: getDescriptor
+2014-04-30 06:53:43,381 INFO com.spss.ac.stpscore.STPScoreReduceComponent: getDescriptor
+2014-04-30 06:53:43,386 INFO com.spss.ac.stp.STPIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:43,386 INFO com.spss.ac.stpscore.STPScoreIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:43,394 INFO com.spss.ac.generalizedlinear.GLEComponent: Load GLE
+2014-04-30 06:53:43,401 INFO com.spss.ac.generalizedlinear.GLEReduceComponent: Load GLE reducer component
+2014-04-30 06:53:43,404 INFO com.spss.ac.generalizedlinear.GLEComponent: Enter getDescriptor
+2014-04-30 06:53:43,422 INFO com.spss.ac.generalizedlinear.GLEMapComponent: Enter getDescriptor
+2014-04-30 06:53:43,426 INFO com.spss.ac.generalizedlinear.GLEIterativeExecutionDirector: Enter getDescriptor
+2014-04-30 06:53:43,435 INFO com.spss.ac.tse.TSEComponent: Load TSE
+2014-04-30 06:53:43,445 INFO com.spss.ac.tsc.TSCComponent: Load TSC
+2014-04-30 06:53:43,445 INFO com.spss.ac.tse.TSEMapComponent: Enter getDescriptor
+2014-04-30 06:53:43,451 INFO com.spss.ac.tse.TSEReduceComponent: Enter getDescriptor
+2014-04-30 06:53:43,452 INFO com.spss.ac.tse.RepSeriesSelectReduceComponent: Enter getDescriptor
+2014-04-30 06:53:43,452 INFO com.spss.ac.tse.TSEComponent: Enter getDescriptor
+2014-04-30 06:53:43,452 INFO com.spss.ac.tsc.TSCMapComponent: Enter getDescriptor
+2014-04-30 06:53:43,454 INFO com.spss.ac.tsc.TSCReduceComponent: Enter getDescriptor
+2014-04-30 06:53:43,454 INFO com.spss.ac.tsc.TSCRepSelectReduceComponent: Enter getDescriptor
+2014-04-30 06:53:43,454 INFO com.spss.ac.tsc.TSCComponent: Enter getDescriptor
+2014-04-30 06:53:43,457 INFO com.spss.ac.tse.TSEDirector: Enter getDescriptor
+2014-04-30 06:53:43,457 INFO com.spss.ac.tsc.TSCDirector: Start getDescriptor()
+2014-04-30 06:53:43,512 INFO com.spss.ac.pi.PIMapComponent: [pi mapper] getDescriptor()
+2014-04-30 06:53:43,514 INFO com.spss.ac.pi.PIMapComponent: [pi reducer] getDescriptor()
+2014-04-30 06:53:43,573 INFO com.spss.ac.descriptives.DescriptivesIterativeExecutionDirector: Descriptives engine is loaded
+2014-04-30 06:53:43,574 INFO com.spss.ac.descriptives.DescriptivesComponent: Load descriptives engine
+2014-04-30 06:53:43,577 INFO com.spss.ac.descriptives.DescriptivesMapComponent: Descriptives engine mapper component is loaded
+2014-04-30 06:53:43,583 INFO com.spss.ac.descriptives.DescriptivesReduceComponent: Load descriptives engine reducer component
+2014-04-30 06:53:43,584 INFO com.spss.ac.descriptives.DescriptivesComponent: Enter getDescriptor
+2014-04-30 06:53:43,596 INFO com.spss.ac.descriptives.selectionstrategy.SelectionStrategyComponent: Enter getDescriptor
+2014-04-30 06:53:43,597 INFO com.spss.ac.descriptives.DescriptivesReduceComponent: Enter getDescriptor
+2014-04-30 06:53:43,602 INFO com.spss.ac.descriptives.selectionstrategy.SelectionStrategyExecutionDirector: Selction Strategy component of Descriptives Engine is loaded
+2014-04-30 06:53:43,602 INFO com.spss.ac.descriptives.DescriptivesIterativeExecutionDirector: Descriptives engine is loaded
+2014-04-30 06:53:43,602 INFO com.spss.ac.descriptives.selectionstrategy.SelectionStrategyExecutionDirector: Enter getDescriptor
+2014-04-30 06:53:43,602 INFO com.spss.ac.descriptives.DescriptivesIterativeExecutionDirector: Enter getDescriptor
+2014-04-30 06:53:43,639 INFO com.spss.ac.scoring.ScoringComponent: Scoring loaded.
+2014-04-30 06:53:43,639 INFO com.spss.ac.scoring.ScoringComponent: Scoring getDescriptor
+2014-04-30 06:53:43,652 INFO com.spss.ac.legacy.me.MeComponent: Load me component
+2014-04-30 06:53:43,722 INFO com.spss.ac.legacy.alm.ALMComponent: Load alm component
+2014-04-30 06:53:43,751 INFO com.spss.ac.legacy.scoring.ScoringComponent: Load scoring component
+2014-04-30 06:53:43,789 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Initialize AE...
+2014-04-30 06:53:43,798 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:tcm_score_dataParallel_mapper
+2014-04-30 06:53:43,864 INFO com.spss.ac.tcm.modeling.TCMWorkerMapComponent: +
+2014-04-30 06:53:43,864 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:worker_mapper
+2014-04-30 06:53:43,868 INFO com.spss.ac.association.wrapper.StarMapComponent: [star mapper] getDescriptor()
+2014-04-30 06:53:43,868 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component star:starMapper
+2014-04-30 06:53:43,872 INFO com.spss.ac.stemdp.stemdp.count.CountMapComponent: CountMapComponent: getDescriptor
+2014-04-30 06:53:43,872 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:count_mapper
+2014-04-30 06:53:43,881 INFO com.spss.ac.tsdp.TSDPComponent: Enter getDescriptor
+2014-04-30 06:53:43,881 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsdp:tsdp_
+2014-04-30 06:53:43,885 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component hexBinFields:hexBinFields
+2014-04-30 06:53:43,888 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component balanceRecords:balanceRecords
+2014-04-30 06:53:43,892 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component modelEffectTest:modelEffectTest_reducer
+2014-04-30 06:53:43,895 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component hcatalogread:hcatalogread
+2014-04-30 06:53:43,898 INFO com.spss.ac.rtsdp.RTSDPPreScoreComponent: Enter getDescriptor
+2014-04-30 06:53:43,898 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component rtsdp:rtsdp_prescore
+2014-04-30 06:53:43,902 INFO com.spss.ac.linear.LinearComponent: getDescriptor
+2014-04-30 06:53:43,902 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component linear:linear_
+2014-04-30 06:53:43,905 INFO com.spss.ac.linear.LinearReduceComponent: getDescriptor
+2014-04-30 06:53:43,905 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component linear:linear_reducer
+2014-04-30 06:53:43,907 INFO com.spss.ac.stemdp.stemdp.range.RangeMapComponent: getDescriptor
+2014-04-30 06:53:43,908 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:range_mapper
+2014-04-30 06:53:43,912 INFO com.spss.ac.stemdp.stemdp.scoring.ScoreComponent: getDescriptor
+2014-04-30 06:53:43,912 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:scoring
+2014-04-30 06:53:43,915 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_neuralnet:neuralnet
+2014-04-30 06:53:43,918 INFO com.spss.ac.tse.TSEComponent: Enter getDescriptor
+2014-04-30 06:53:43,919 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tse:tse_
+2014-04-30 06:53:43,922 INFO com.spss.ac.tcm.modeling.TCMComponent: +
+2014-04-30 06:53:43,922 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:tcm_
+2014-04-30 06:53:43,924 INFO com.spss.ac.scoring.ScoringComponent: Scoring getDescriptor
+2014-04-30 06:53:43,924 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component scoring:scoring
+2014-04-30 06:53:43,929 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component georead:georead
+2014-04-30 06:53:43,932 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component csvwriter:csvwriter
+2014-04-30 06:53:43,935 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component ensembler:ensembler
+2014-04-30 06:53:43,939 INFO com.spss.ac.tse.TSEMapComponent: Enter getDescriptor
+2014-04-30 06:53:43,939 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tse:tse_mapper
+2014-04-30 06:53:43,942 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component filterFields:filterFields
+2014-04-30 06:53:43,945 INFO com.spss.ac.tsc.TSCMapComponent: Enter getDescriptor
+2014-04-30 06:53:43,945 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsc:tscluster_mapper
+2014-04-30 06:53:43,953 INFO com.spss.ac.stemdp.stemdp.centroid.CentroidComponent: getDescriptor
+2014-04-30 06:53:43,953 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:centroid_
+2014-04-30 06:53:43,957 INFO com.spss.ac.tse.RepSeriesSelectReduceComponent: Enter getDescriptor
+2014-04-30 06:53:43,957 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tse:tse_reducer_rep
+2014-04-30 06:53:43,960 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component gtt:gttreducer
+2014-04-30 06:53:43,970 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component aggregate:reducer
+2014-04-30 06:53:43,973 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:tcm_score_mapper
+2014-04-30 06:53:43,975 INFO com.spss.ac.stp.STPReduceComponent: getDescriptor
+2014-04-30 06:53:43,975 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stp:stp_reducer
+2014-04-30 06:53:43,981 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component generalizedLinear:generalizedLinear_reducer
+2014-04-30 06:53:43,985 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component samplingComponent:scatterSampling
+2014-04-30 06:53:43,988 INFO com.spss.ac.tcm.analysis.sa.SAComponent: getDescriptor
+2014-04-30 06:53:43,988 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:sa_
+2014-04-30 06:53:43,991 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component ta:computeword
+2014-04-30 06:53:43,994 INFO com.spss.ac.tcm.analysis.sa.SAMapComponent: getDescriptor
+2014-04-30 06:53:43,994 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:sa_mapper
+2014-04-30 06:53:43,997 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component smartreports:smartreports_mapper
+2014-04-30 06:53:44,002 INFO com.spss.ac.stemdp.stemdp.StemdpComponent: getDescriptor
+2014-04-30 06:53:44,002 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:stemdp_
+2014-04-30 06:53:44,005 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component complexSampling:reducer
+2014-04-30 06:53:44,008 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component smartreports:smartreports_reducer
+2014-04-30 06:53:44,011 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component star:star_
+2014-04-30 06:53:44,013 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component distinct:mapper
+2014-04-30 06:53:44,017 INFO com.spss.ac.stpscore.STPScoreMapComponent: getDescriptor
+2014-04-30 06:53:44,017 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stp:score_mapper
+2014-04-30 06:53:44,022 INFO com.spss.ac.tcm.analysis.rca.RCAReduceComponent: getDescriptor
+2014-04-30 06:53:44,022 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:rca_reducer
+2014-04-30 06:53:44,025 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component rtsdp:rtsdp_
+2014-04-30 06:53:44,028 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component binwriter:binwriter
+2014-04-30 06:53:44,031 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component filterRecords:filterRecords
+2014-04-30 06:53:44,034 INFO com.spss.ac.rtsdp.RTSDPMapComponent: Enter getDescriptor
+2014-04-30 06:53:44,034 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component rtsdp:rtsdp_mapper
+2014-04-30 06:53:44,036 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component seqwriter:seqwriter
+2014-04-30 06:53:44,039 INFO com.spss.ac.cluster.twostep.TwoStepComponent: getDescriptor
+2014-04-30 06:53:44,039 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cluster:twostep_
+2014-04-30 06:53:44,044 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component distinct:reducer
+2014-04-30 06:53:44,047 INFO com.spss.ac.stpscore.STPScoreReduceComponent: getDescriptor
+2014-04-30 06:53:44,047 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stp:score_reducer
+2014-04-30 06:53:44,050 INFO com.spss.ac.descriptives.DescriptivesComponent: Enter getDescriptor
+2014-04-30 06:53:44,050 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component descriptives:descriptives_
+2014-04-30 06:53:44,053 INFO com.spss.ac.descriptives.DescriptivesReduceComponent: Enter getDescriptor
+2014-04-30 06:53:44,053 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component descriptives:descriptives_reducer
+2014-04-30 06:53:44,056 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component samplingComponent:sequentialSampling
+2014-04-30 06:53:44,059 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component predictorimportance:predictorimportance_
+2014-04-30 06:53:44,064 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component savwriter:savwriter
+2014-04-30 06:53:44,066 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component demux:demux
+2014-04-30 06:53:44,069 INFO com.spss.ac.tcm.score.TCMScoreReduceComponent: getDescriptor
+2014-04-30 06:53:44,069 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:tcm_score_reducer
+2014-04-30 06:53:44,072 INFO com.spss.ac.stemdp.stemdp.centroid.CentroidReduceComponent: getDescriptor
+2014-04-30 06:53:44,072 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:centroid_reducer
+2014-04-30 06:53:44,075 INFO com.spss.ac.stemdp.stemdp.kde.KDEReduceComponent: KDEReduceComponent: getDescriptor
+2014-04-30 06:53:44,075 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:KDE_reducer
+2014-04-30 06:53:44,078 INFO com.spss.ac.tree.chaid.ChaidReduceComponent: getDescriptor()
+2014-04-30 06:53:44,078 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tree:chaid_reducer
+2014-04-30 06:53:44,083 INFO com.spss.ac.tree.chaid.ChaidMapComponent: getDescriptor()
+2014-04-30 06:53:44,083 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tree:chaid_mapper
+2014-04-30 06:53:44,086 INFO com.spss.ac.tcm.modeling.TCMWorkerReduceComponent: +
+2014-04-30 06:53:44,086 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:worker_reducer
+2014-04-30 06:53:44,088 INFO com.spss.ac.pi.PIMapComponent: [pi mapper] getDescriptor()
+2014-04-30 06:53:44,089 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component predictorimportance:pimapper
+2014-04-30 06:53:44,091 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component updateDatasetSummaries:updateDatasetSummaries
+2014-04-30 06:53:44,094 INFO com.spss.ac.tcm.score.TCMScoreComponent: getDescriptor()
+2014-04-30 06:53:44,094 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:score_
+2014-04-30 06:53:44,097 INFO com.spss.ac.cluster.twostep.TwoStepReduceComponent: getDescriptor
+2014-04-30 06:53:44,097 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cluster:twostep_reducer
+2014-04-30 06:53:44,100 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component samplingComponent:samplingModel
+2014-04-30 06:53:44,104 INFO com.spss.ac.tcm.analysis.rca.RCAMapComponent: getDescriptor
+2014-04-30 06:53:44,105 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:rca_mapper
+2014-04-30 06:53:44,107 INFO com.spss.ac.stemdp.stemdp.regular.ParseRegularReduceComponent: getDescriptor
+2014-04-30 06:53:44,107 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:regular_reducer
+2014-04-30 06:53:44,110 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cognos:smdModel
+2014-04-30 06:53:44,113 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component MissHandling:missingNWeightFilter
+2014-04-30 06:53:44,122 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_scoring:scoring
+2014-04-30 06:53:44,124 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component lambdaTransform:reclassifyField
+2014-04-30 06:53:44,130 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component dataread:dataread
+2014-04-30 06:53:44,132 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component geowriter:geowriter
+2014-04-30 06:53:44,135 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component reprojection:reprojection
+2014-04-30 06:53:44,138 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_rstats:rprocess
+2014-04-30 06:53:44,143 INFO com.spss.ac.descriptives.selectionstrategy.SelectionStrategyComponent: Enter getDescriptor
+2014-04-30 06:53:44,143 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component descriptives:selectionStrategy_
+2014-04-30 06:53:44,150 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsc:tscluster_mapper_rep
+2014-04-30 06:53:44,153 INFO com.spss.ac.association.wrapper.StarReduceComponent: [star reducer] getDescriptor()
+2014-04-30 06:53:44,153 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component star:starReducer
+2014-04-30 06:53:44,158 INFO com.spss.ac.tsdp.TSDPMapComponent: Enter getDescriptor
+2014-04-30 06:53:44,158 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsdp:tsdp_mapper
+2014-04-30 06:53:44,161 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_me:me
+2014-04-30 06:53:44,163 INFO com.spss.ac.tcm.analysis.od.ODComponent: getDescriptor
+2014-04-30 06:53:44,163 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:od_
+2014-04-30 06:53:44,166 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component ensembler:ranking
+2014-04-30 06:53:44,169 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component lambdaTransform:deriveField
+2014-04-30 06:53:44,172 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component split:zipdm
+2014-04-30 06:53:44,174 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component binFields:binAssignment
+2014-04-30 06:53:44,179 INFO com.spss.ac.linear.LinearMapComponent: getDescriptor
+2014-04-30 06:53:44,179 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component linear:linear_mapper
+2014-04-30 06:53:44,182 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_tree:tree
+2014-04-30 06:53:44,184 INFO com.spss.ac.stemdp.stemdp.regular.ParseRegularMapComponent: getDescriptor
+2014-04-30 06:53:44,185 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:regular_mapper
+2014-04-30 06:53:44,187 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_tascoring:tascoring
+2014-04-30 06:53:44,190 INFO com.spss.ac.tcm.modeling.TCMTaskParallelMapComponent: +
+2014-04-30 06:53:44,190 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:task_parallel_mapper
+2014-04-30 06:53:44,193 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component dbcomponent:dbcomponent
+2014-04-30 06:53:44,198 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_rstats:rapplier
+2014-04-30 06:53:44,201 INFO com.spss.ac.tsdp.TSDPReduceComponent: Enter getDescriptor
+2014-04-30 06:53:44,201 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsdp:tsdp_reducer
+2014-04-30 06:53:44,203 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tree:chaid_
+2014-04-30 06:53:44,206 INFO com.spss.ac.stemdp.stemdp.count.CountReduceComponent: CountReduceComponent: getDescriptor
+2014-04-30 06:53:44,206 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:count_reducer
+2014-04-30 06:53:44,209 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_alm:linreg
+2014-04-30 06:53:44,212 INFO com.spss.ac.stemdp.stemdp.kde.KDEMapComponent: KDEMapComponent: getDescriptor
+2014-04-30 06:53:44,212 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:KDE_mapper
+2014-04-30 06:53:44,214 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component pmmlmerger:pmmlmerger
+2014-04-30 06:53:44,219 INFO com.spss.ac.rtsdp.RTSDPReduceComponent: Enter getDescriptor
+2014-04-30 06:53:44,219 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component rtsdp:rtsdp_reducer
+2014-04-30 06:53:44,222 INFO com.spss.ac.stemdp.stemdp.StemdpMapComponent: getDescriptor
+2014-04-30 06:53:44,222 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:stemdp_mapper
+2014-04-30 06:53:44,225 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component complexSampling:mapper
+2014-04-30 06:53:44,227 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:tcm_score_prescore
+2014-04-30 06:53:44,230 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stp:stp_
+2014-04-30 06:53:44,233 INFO com.spss.ac.generalizedlinear.GLEComponent: Enter getDescriptor
+2014-04-30 06:53:44,233 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component generalizedLinear:generalizedLinear_
+2014-04-30 06:53:44,238 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component samplingComponent:samplingComponent
+2014-04-30 06:53:44,240 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component aggregate:mapper
+2014-04-30 06:53:44,243 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component mrsampling:reducer
+2014-04-30 06:53:44,246 INFO com.spss.ac.stp.STPMapComponent: getDescriptor
+2014-04-30 06:53:44,246 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stp:stp_mapper
+2014-04-30 06:53:44,249 INFO com.spss.ac.generalizedlinear.GLEMapComponent: Enter getDescriptor
+2014-04-30 06:53:44,249 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component generalizedLinear:generalizedLinear_mapper
+2014-04-30 06:53:44,252 INFO com.spss.ac.tsc.TSCRepSelectReduceComponent: Enter getDescriptor
+2014-04-30 06:53:44,252 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsc:tscluster_reducer_rep
+2014-04-30 06:53:44,255 INFO com.spss.ac.cluster.twostep.TwoStepMapComponent: getDescriptor
+2014-04-30 06:53:44,255 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cluster:twostep_mapper
+2014-04-30 06:53:44,257 INFO com.spss.ac.pi.PIMapComponent: [pi reducer] getDescriptor()
+2014-04-30 06:53:44,257 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component predictorimportance:pireducer
+2014-04-30 06:53:44,259 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component noop:noop
+2014-04-30 06:53:44,261 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component CatEncodingSelection:CatEncodeSelect
+2014-04-30 06:53:44,262 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component dataModeler:updateDataModel
+2014-04-30 06:53:44,263 INFO com.spss.ac.tse.TSEReduceComponent: Enter getDescriptor
+2014-04-30 06:53:44,263 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tse:tse_reducer
+2014-04-30 06:53:44,265 INFO com.spss.ac.tcm.analysis.sa.SAMapComponent: getDescriptor
+2014-04-30 06:53:44,265 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:od_mapper
+2014-04-30 06:53:44,266 INFO com.spss.ac.association.wrapper.StarMapComponent: [star mapper] getDescriptor()
+2014-04-30 06:53:44,266 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component star:starMapper2
+2014-04-30 06:53:44,268 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component mrsampling:mapper
+2014-04-30 06:53:44,269 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component descriptives:descriptives_mapper
+2014-04-30 06:53:44,272 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component generalizedLinear:generalizedLinear_lite_mapper
+2014-04-30 06:53:44,275 INFO com.spss.ac.stemdp.stemdp.range.RangeReduceComponent: getDescriptor
+2014-04-30 06:53:44,275 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:range_reducer
+2014-04-30 06:53:44,278 INFO com.spss.ac.tsc.TSCComponent: Enter getDescriptor
+2014-04-30 06:53:44,278 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsc:tsc_
+2014-04-30 06:53:44,280 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component modelEffectTest:modelEffectTest_mapper
+2014-04-30 06:53:44,283 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component gtt:gttmapper
+2014-04-30 06:53:44,286 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component ta:computesum
+2014-04-30 06:53:44,289 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component dbwriter:dbwriter
+2014-04-30 06:53:44,291 INFO com.spss.ac.tsc.TSCReduceComponent: Enter getDescriptor
+2014-04-30 06:53:44,291 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsc:tscluster_reducer
+2014-04-30 06:53:44,294 INFO com.spss.ac.stemdp.stemdp.centroid.CentroidMapComponent: getDescriptor
+2014-04-30 06:53:44,294 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:centroid_mapper
+2014-04-30 06:53:44,296 INFO com.spss.ac.tcm.analysis.rca.RCAComponent: getDescriptor
+2014-04-30 06:53:44,296 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:rca_
+2014-04-30 06:53:44,298 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component split:multiplexor
+2014-04-30 06:53:44,300 INFO com.spss.ac.cluster.twostep.TwoStepReduceComponent: getDescriptor
+2014-04-30 06:53:44,300 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cluster:twostep_finalizer
+2014-04-30 06:53:44,301 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component jsonwriter:jsonwriter
+2014-04-30 06:53:44,303 INFO com.spss.ac.stemdp.stemdp.StemdpReduceComponent: getDescriptor
+2014-04-30 06:53:44,303 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:stemdp_reducer
+2014-04-30 06:53:44,304 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component dataModelBuilder:dataModelBuilder
+2014-04-30 06:53:44,306 INFO com.spss.ac.stpscore.STPScoreComponent: getDescriptor
+2014-04-30 06:53:44,306 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stp:score_
+2014-04-30 06:53:44,307 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tse:tse_mapper_rep
+2014-04-30 06:53:44,309 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director predictorimportance:predictorimportance
+2014-04-30 06:53:44,312 INFO com.spss.ac.tcm.modeling.TCMDirector: +
+2014-04-30 06:53:44,312 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tcm:tcm
+2014-04-30 06:53:44,314 INFO com.spss.ac.tse.TSEDirector: Enter getDescriptor
+2014-04-30 06:53:44,314 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tse:tse
+2014-04-30 06:53:44,317 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director joindirector:director
+2014-04-30 06:53:44,320 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director complexSampling:director
+2014-04-30 06:53:44,322 INFO com.spss.ac.stpscore.STPScoreIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:44,323 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director stp:score
+2014-04-30 06:53:44,325 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director distinct:director
+2014-04-30 06:53:44,328 INFO com.spss.ac.linear.LinearIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:44,328 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director linear:linear
+2014-04-30 06:53:44,333 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director aggregate:director
+2014-04-30 06:53:44,335 INFO com.spss.ac.descriptives.DescriptivesIterativeExecutionDirector: Enter getDescriptor
+2014-04-30 06:53:44,335 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director descriptives:descriptives
+2014-04-30 06:53:44,338 INFO com.spss.ac.stemdp.stemdp.centroid.CentroidExecutionDirector: getDescriptor
+2014-04-30 06:53:44,338 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director stemdp:centroid
+2014-04-30 06:53:44,341 INFO com.spss.ac.tsdp.TSDPDirector: Enter getDescriptor
+2014-04-30 06:53:44,341 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tsdp:tsdp
+2014-04-30 06:53:44,343 INFO com.spss.ac.tsc.TSCDirector: Start getDescriptor()
+2014-04-30 06:53:44,344 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tsc:tscluster
+2014-04-30 06:53:44,346 INFO com.spss.ac.descriptives.selectionstrategy.SelectionStrategyExecutionDirector: Enter getDescriptor
+2014-04-30 06:53:44,346 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director descriptives:selectionStrategy
+2014-04-30 06:53:44,350 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director mrsampling:director
+2014-04-30 06:53:44,353 INFO com.spss.ac.tree.chaid.ChaidIterativeExecutionDirector: getDescriptor()
+2014-04-30 06:53:44,353 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tree:chaid
+2014-04-30 06:53:44,356 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director ta:ta
+2014-04-30 06:53:44,359 INFO com.spss.ac.tcm.modeling.TCMWorkerDirector: +
+2014-04-30 06:53:44,359 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tcm:worker
+2014-04-30 06:53:44,361 INFO com.spss.ac.cluster.twostep.TwoStepIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:44,361 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director cluster:twostep
+2014-04-30 06:53:44,364 INFO com.spss.ac.rtsdp.RTSDPDirector: Enter getDescriptor
+2014-04-30 06:53:44,364 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director rtsdp:rtsdp
+2014-04-30 06:53:44,366 INFO com.spss.ac.stp.STPIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:44,366 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director stp:stp
+2014-04-30 06:53:44,371 INFO com.spss.ac.generalizedlinear.GLEIterativeExecutionDirector: Enter getDescriptor
+2014-04-30 06:53:44,371 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director generalizedLinear:generalizedLinear
+2014-04-30 06:53:44,373 INFO com.spss.ac.stemdp.stemdp.StemdpExecutionDirector: getDescriptor
+2014-04-30 06:53:44,374 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director stemdp:dp
+2014-04-30 06:53:44,376 INFO com.spss.ac.association.wrapper.StarIterativeExecutionDirector: [star director] getDescriptor()
+2014-04-30 06:53:44,376 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director star:star
+2014-04-30 06:53:44,379 INFO com.spss.ac.stemdp.stemdp.regular.ParseRegularIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:44,379 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director stemdp:regular
+2014-04-30 06:53:44,381 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director uniondirector:director
+2014-04-30 06:53:44,384 INFO com.spss.ac.tcm.analysis.sa.SADirector: getDescriptor
+2014-04-30 06:53:44,384 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tcm:sa
+2014-04-30 06:53:44,387 INFO com.spss.ac.smartreports.SRIterativeExecutionDirector: Enter getDescriptor
+2014-04-30 06:53:44,387 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director smartreports:smartreports
+2014-04-30 06:53:44,391 INFO com.spss.ac.tcm.analysis.rca.RCADirector: getDescriptor
+2014-04-30 06:53:44,391 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tcm:rca
+2014-04-30 06:53:44,394 INFO com.spss.ac.tcm.analysis.od.ODDirector: getDescriptor
+2014-04-30 06:53:44,394 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tcm:od
+2014-04-30 06:53:44,396 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tcm:score
+2014-04-30 06:53:44,399 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director sortdirector:director
+2014-04-30 06:53:44,400 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director gttdirector:director
+2014-04-30 06:53:44,487 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:tcm_score_dataParallel_mapper
+2014-04-30 06:53:44,490 INFO com.spss.ac.tcm.modeling.TCMWorkerMapComponent: +
+2014-04-30 06:53:44,490 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:worker_mapper
+2014-04-30 06:53:44,492 INFO com.spss.ac.association.wrapper.StarMapComponent: [star mapper] getDescriptor()
+2014-04-30 06:53:44,493 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component star:starMapper
+2014-04-30 06:53:44,495 INFO com.spss.ac.stemdp.stemdp.count.CountMapComponent: CountMapComponent: getDescriptor
+2014-04-30 06:53:44,495 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:count_mapper
+2014-04-30 06:53:44,498 INFO com.spss.ac.tsdp.TSDPComponent: Enter getDescriptor
+2014-04-30 06:53:44,498 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsdp:tsdp_
+2014-04-30 06:53:44,500 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component hexBinFields:hexBinFields
+2014-04-30 06:53:44,504 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component balanceRecords:balanceRecords
+2014-04-30 06:53:44,506 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component modelEffectTest:modelEffectTest_reducer
+2014-04-30 06:53:44,509 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component hcatalogread:hcatalogread
+2014-04-30 06:53:44,511 INFO com.spss.ac.rtsdp.RTSDPPreScoreComponent: Enter getDescriptor
+2014-04-30 06:53:44,512 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component rtsdp:rtsdp_prescore
+2014-04-30 06:53:44,514 INFO com.spss.ac.linear.LinearComponent: getDescriptor
+2014-04-30 06:53:44,514 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component linear:linear_
+2014-04-30 06:53:44,517 INFO com.spss.ac.linear.LinearReduceComponent: getDescriptor
+2014-04-30 06:53:44,517 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component linear:linear_reducer
+2014-04-30 06:53:44,520 INFO com.spss.ac.stemdp.stemdp.range.RangeMapComponent: getDescriptor
+2014-04-30 06:53:44,520 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:range_mapper
+2014-04-30 06:53:44,523 INFO com.spss.ac.stemdp.stemdp.scoring.ScoreComponent: getDescriptor
+2014-04-30 06:53:44,523 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:scoring
+2014-04-30 06:53:44,525 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_neuralnet:neuralnet
+2014-04-30 06:53:44,528 INFO com.spss.ac.tse.TSEComponent: Enter getDescriptor
+2014-04-30 06:53:44,528 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tse:tse_
+2014-04-30 06:53:44,531 INFO com.spss.ac.tcm.modeling.TCMComponent: +
+2014-04-30 06:53:44,531 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:tcm_
+2014-04-30 06:53:44,533 INFO com.spss.ac.scoring.ScoringComponent: Scoring getDescriptor
+2014-04-30 06:53:44,533 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component scoring:scoring
+2014-04-30 06:53:44,536 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component georead:georead
+2014-04-30 06:53:44,539 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component csvwriter:csvwriter
+2014-04-30 06:53:44,542 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component ensembler:ensembler
+2014-04-30 06:53:44,544 INFO com.spss.ac.tse.TSEMapComponent: Enter getDescriptor
+2014-04-30 06:53:44,544 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tse:tse_mapper
+2014-04-30 06:53:44,547 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component filterFields:filterFields
+2014-04-30 06:53:44,549 INFO com.spss.ac.tsc.TSCMapComponent: Enter getDescriptor
+2014-04-30 06:53:44,550 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsc:tscluster_mapper
+2014-04-30 06:53:44,552 INFO com.spss.ac.stemdp.stemdp.centroid.CentroidComponent: getDescriptor
+2014-04-30 06:53:44,552 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:centroid_
+2014-04-30 06:53:44,555 INFO com.spss.ac.tse.RepSeriesSelectReduceComponent: Enter getDescriptor
+2014-04-30 06:53:44,555 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tse:tse_reducer_rep
+2014-04-30 06:53:44,558 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component gtt:gttreducer
+2014-04-30 06:53:44,560 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component aggregate:reducer
+2014-04-30 06:53:44,563 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:tcm_score_mapper
+2014-04-30 06:53:44,566 INFO com.spss.ac.stp.STPReduceComponent: getDescriptor
+2014-04-30 06:53:44,566 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stp:stp_reducer
+2014-04-30 06:53:44,568 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component generalizedLinear:generalizedLinear_reducer
+2014-04-30 06:53:44,571 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component samplingComponent:scatterSampling
+2014-04-30 06:53:44,574 INFO com.spss.ac.tcm.analysis.sa.SAComponent: getDescriptor
+2014-04-30 06:53:44,574 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:sa_
+2014-04-30 06:53:44,577 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component ta:computeword
+2014-04-30 06:53:44,579 INFO com.spss.ac.tcm.analysis.sa.SAMapComponent: getDescriptor
+2014-04-30 06:53:44,579 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:sa_mapper
+2014-04-30 06:53:44,582 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component smartreports:smartreports_mapper
+2014-04-30 06:53:44,584 INFO com.spss.ac.stemdp.stemdp.StemdpComponent: getDescriptor
+2014-04-30 06:53:44,584 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:stemdp_
+2014-04-30 06:53:44,587 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component complexSampling:reducer
+2014-04-30 06:53:44,589 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component smartreports:smartreports_reducer
+2014-04-30 06:53:44,593 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component star:star_
+2014-04-30 06:53:44,595 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component distinct:mapper
+2014-04-30 06:53:44,598 INFO com.spss.ac.stpscore.STPScoreMapComponent: getDescriptor
+2014-04-30 06:53:44,598 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stp:score_mapper
+2014-04-30 06:53:44,600 INFO com.spss.ac.tcm.analysis.rca.RCAReduceComponent: getDescriptor
+2014-04-30 06:53:44,601 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:rca_reducer
+2014-04-30 06:53:44,603 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component rtsdp:rtsdp_
+2014-04-30 06:53:44,606 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component binwriter:binwriter
+2014-04-30 06:53:44,608 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component filterRecords:filterRecords
+2014-04-30 06:53:44,611 INFO com.spss.ac.rtsdp.RTSDPMapComponent: Enter getDescriptor
+2014-04-30 06:53:44,612 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component rtsdp:rtsdp_mapper
+2014-04-30 06:53:44,614 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component seqwriter:seqwriter
+2014-04-30 06:53:44,617 INFO com.spss.ac.cluster.twostep.TwoStepComponent: getDescriptor
+2014-04-30 06:53:44,617 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cluster:twostep_
+2014-04-30 06:53:44,620 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component distinct:reducer
+2014-04-30 06:53:44,622 INFO com.spss.ac.stpscore.STPScoreReduceComponent: getDescriptor
+2014-04-30 06:53:44,622 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stp:score_reducer
+2014-04-30 06:53:44,625 INFO com.spss.ac.descriptives.DescriptivesComponent: Enter getDescriptor
+2014-04-30 06:53:44,625 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component descriptives:descriptives_
+2014-04-30 06:53:44,631 INFO com.spss.ac.descriptives.DescriptivesReduceComponent: Enter getDescriptor
+2014-04-30 06:53:44,631 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component descriptives:descriptives_reducer
+2014-04-30 06:53:44,634 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component samplingComponent:sequentialSampling
+2014-04-30 06:53:44,637 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component predictorimportance:predictorimportance_
+2014-04-30 06:53:44,639 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component savwriter:savwriter
+2014-04-30 06:53:44,642 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component demux:demux
+2014-04-30 06:53:44,644 INFO com.spss.ac.tcm.score.TCMScoreReduceComponent: getDescriptor
+2014-04-30 06:53:44,644 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:tcm_score_reducer
+2014-04-30 06:53:44,647 INFO com.spss.ac.stemdp.stemdp.centroid.CentroidReduceComponent: getDescriptor
+2014-04-30 06:53:44,647 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:centroid_reducer
+2014-04-30 06:53:44,650 INFO com.spss.ac.stemdp.stemdp.kde.KDEReduceComponent: KDEReduceComponent: getDescriptor
+2014-04-30 06:53:44,650 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:KDE_reducer
+2014-04-30 06:53:44,653 INFO com.spss.ac.tree.chaid.ChaidReduceComponent: getDescriptor()
+2014-04-30 06:53:44,653 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tree:chaid_reducer
+2014-04-30 06:53:44,656 INFO com.spss.ac.tree.chaid.ChaidMapComponent: getDescriptor()
+2014-04-30 06:53:44,656 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tree:chaid_mapper
+2014-04-30 06:53:44,658 INFO com.spss.ac.tcm.modeling.TCMWorkerReduceComponent: +
+2014-04-30 06:53:44,658 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:worker_reducer
+2014-04-30 06:53:44,661 INFO com.spss.ac.pi.PIMapComponent: [pi mapper] getDescriptor()
+2014-04-30 06:53:44,661 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component predictorimportance:pimapper
+2014-04-30 06:53:44,663 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component updateDatasetSummaries:updateDatasetSummaries
+2014-04-30 06:53:44,666 INFO com.spss.ac.tcm.score.TCMScoreComponent: getDescriptor()
+2014-04-30 06:53:44,666 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:score_
+2014-04-30 06:53:44,669 INFO com.spss.ac.cluster.twostep.TwoStepReduceComponent: getDescriptor
+2014-04-30 06:53:44,670 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cluster:twostep_reducer
+2014-04-30 06:53:44,672 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component samplingComponent:samplingModel
+2014-04-30 06:53:44,675 INFO com.spss.ac.tcm.analysis.rca.RCAMapComponent: getDescriptor
+2014-04-30 06:53:44,675 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:rca_mapper
+2014-04-30 06:53:44,677 INFO com.spss.ac.stemdp.stemdp.regular.ParseRegularReduceComponent: getDescriptor
+2014-04-30 06:53:44,677 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:regular_reducer
+2014-04-30 06:53:44,680 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cognos:smdModel
+2014-04-30 06:53:44,682 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component MissHandling:missingNWeightFilter
+2014-04-30 06:53:44,686 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_scoring:scoring
+2014-04-30 06:53:44,688 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component lambdaTransform:reclassifyField
+2014-04-30 06:53:44,691 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component dataread:dataread
+2014-04-30 06:53:44,693 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component geowriter:geowriter
+2014-04-30 06:53:44,696 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component reprojection:reprojection
+2014-04-30 06:53:44,699 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_rstats:rprocess
+2014-04-30 06:53:44,701 INFO com.spss.ac.descriptives.selectionstrategy.SelectionStrategyComponent: Enter getDescriptor
+2014-04-30 06:53:44,701 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component descriptives:selectionStrategy_
+2014-04-30 06:53:44,705 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsc:tscluster_mapper_rep
+2014-04-30 06:53:44,707 INFO com.spss.ac.association.wrapper.StarReduceComponent: [star reducer] getDescriptor()
+2014-04-30 06:53:44,707 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component star:starReducer
+2014-04-30 06:53:44,710 INFO com.spss.ac.tsdp.TSDPMapComponent: Enter getDescriptor
+2014-04-30 06:53:44,710 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsdp:tsdp_mapper
+2014-04-30 06:53:44,712 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_me:me
+2014-04-30 06:53:44,715 INFO com.spss.ac.tcm.analysis.od.ODComponent: getDescriptor
+2014-04-30 06:53:44,715 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:od_
+2014-04-30 06:53:44,718 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component ensembler:ranking
+2014-04-30 06:53:44,720 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component lambdaTransform:deriveField
+2014-04-30 06:53:44,723 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component split:zipdm
+2014-04-30 06:53:44,726 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component binFields:binAssignment
+2014-04-30 06:53:44,728 INFO com.spss.ac.linear.LinearMapComponent: getDescriptor
+2014-04-30 06:53:44,729 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component linear:linear_mapper
+2014-04-30 06:53:44,731 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_tree:tree
+2014-04-30 06:53:44,734 INFO com.spss.ac.stemdp.stemdp.regular.ParseRegularMapComponent: getDescriptor
+2014-04-30 06:53:44,734 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:regular_mapper
+2014-04-30 06:53:44,736 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_tascoring:tascoring
+2014-04-30 06:53:44,740 INFO com.spss.ac.tcm.modeling.TCMTaskParallelMapComponent: +
+2014-04-30 06:53:44,740 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:task_parallel_mapper
+2014-04-30 06:53:44,742 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component dbcomponent:dbcomponent
+2014-04-30 06:53:44,745 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_rstats:rapplier
+2014-04-30 06:53:44,747 INFO com.spss.ac.tsdp.TSDPReduceComponent: Enter getDescriptor
+2014-04-30 06:53:44,747 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsdp:tsdp_reducer
+2014-04-30 06:53:44,750 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tree:chaid_
+2014-04-30 06:53:44,752 INFO com.spss.ac.stemdp.stemdp.count.CountReduceComponent: CountReduceComponent: getDescriptor
+2014-04-30 06:53:44,753 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:count_reducer
+2014-04-30 06:53:44,755 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cf_alm:linreg
+2014-04-30 06:53:44,758 INFO com.spss.ac.stemdp.stemdp.kde.KDEMapComponent: KDEMapComponent: getDescriptor
+2014-04-30 06:53:44,758 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:KDE_mapper
+2014-04-30 06:53:44,761 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component pmmlmerger:pmmlmerger
+2014-04-30 06:53:44,763 INFO com.spss.ac.rtsdp.RTSDPReduceComponent: Enter getDescriptor
+2014-04-30 06:53:44,763 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component rtsdp:rtsdp_reducer
+2014-04-30 06:53:44,766 INFO com.spss.ac.stemdp.stemdp.StemdpMapComponent: getDescriptor
+2014-04-30 06:53:44,766 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:stemdp_mapper
+2014-04-30 06:53:44,769 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component complexSampling:mapper
+2014-04-30 06:53:44,771 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:tcm_score_prescore
+2014-04-30 06:53:44,774 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stp:stp_
+2014-04-30 06:53:44,777 INFO com.spss.ac.generalizedlinear.GLEComponent: Enter getDescriptor
+2014-04-30 06:53:44,777 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component generalizedLinear:generalizedLinear_
+2014-04-30 06:53:44,779 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component samplingComponent:samplingComponent
+2014-04-30 06:53:44,782 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component aggregate:mapper
+2014-04-30 06:53:44,784 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component mrsampling:reducer
+2014-04-30 06:53:44,787 INFO com.spss.ac.stp.STPMapComponent: getDescriptor
+2014-04-30 06:53:44,787 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stp:stp_mapper
+2014-04-30 06:53:44,790 INFO com.spss.ac.generalizedlinear.GLEMapComponent: Enter getDescriptor
+2014-04-30 06:53:44,790 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component generalizedLinear:generalizedLinear_mapper
+2014-04-30 06:53:44,792 INFO com.spss.ac.tsc.TSCRepSelectReduceComponent: Enter getDescriptor
+2014-04-30 06:53:44,792 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsc:tscluster_reducer_rep
+2014-04-30 06:53:44,795 INFO com.spss.ac.cluster.twostep.TwoStepMapComponent: getDescriptor
+2014-04-30 06:53:44,795 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cluster:twostep_mapper
+2014-04-30 06:53:44,798 INFO com.spss.ac.pi.PIMapComponent: [pi reducer] getDescriptor()
+2014-04-30 06:53:44,798 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component predictorimportance:pireducer
+2014-04-30 06:53:44,800 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component noop:noop
+2014-04-30 06:53:44,803 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component CatEncodingSelection:CatEncodeSelect
+2014-04-30 06:53:44,806 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component dataModeler:updateDataModel
+2014-04-30 06:53:44,808 INFO com.spss.ac.tse.TSEReduceComponent: Enter getDescriptor
+2014-04-30 06:53:44,808 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tse:tse_reducer
+2014-04-30 06:53:44,811 INFO com.spss.ac.tcm.analysis.sa.SAMapComponent: getDescriptor
+2014-04-30 06:53:44,811 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:od_mapper
+2014-04-30 06:53:44,814 INFO com.spss.ac.association.wrapper.StarMapComponent: [star mapper] getDescriptor()
+2014-04-30 06:53:44,814 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component star:starMapper2
+2014-04-30 06:53:44,816 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component mrsampling:mapper
+2014-04-30 06:53:44,819 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component descriptives:descriptives_mapper
+2014-04-30 06:53:44,822 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component generalizedLinear:generalizedLinear_lite_mapper
+2014-04-30 06:53:44,824 INFO com.spss.ac.stemdp.stemdp.range.RangeReduceComponent: getDescriptor
+2014-04-30 06:53:44,824 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:range_reducer
+2014-04-30 06:53:44,827 INFO com.spss.ac.tsc.TSCComponent: Enter getDescriptor
+2014-04-30 06:53:44,827 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsc:tsc_
+2014-04-30 06:53:44,830 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component modelEffectTest:modelEffectTest_mapper
+2014-04-30 06:53:44,833 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component gtt:gttmapper
+2014-04-30 06:53:44,835 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component ta:computesum
+2014-04-30 06:53:44,838 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component dbwriter:dbwriter
+2014-04-30 06:53:44,840 INFO com.spss.ac.tsc.TSCReduceComponent: Enter getDescriptor
+2014-04-30 06:53:44,840 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tsc:tscluster_reducer
+2014-04-30 06:53:44,842 INFO com.spss.ac.stemdp.stemdp.centroid.CentroidMapComponent: getDescriptor
+2014-04-30 06:53:44,842 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:centroid_mapper
+2014-04-30 06:53:44,845 INFO com.spss.ac.tcm.analysis.rca.RCAComponent: getDescriptor
+2014-04-30 06:53:44,845 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tcm:rca_
+2014-04-30 06:53:44,850 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component split:multiplexor
+2014-04-30 06:53:44,852 INFO com.spss.ac.cluster.twostep.TwoStepReduceComponent: getDescriptor
+2014-04-30 06:53:44,852 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component cluster:twostep_finalizer
+2014-04-30 06:53:44,855 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component jsonwriter:jsonwriter
+2014-04-30 06:53:44,857 INFO com.spss.ac.stemdp.stemdp.StemdpReduceComponent: getDescriptor
+2014-04-30 06:53:44,857 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stemdp:stemdp_reducer
+2014-04-30 06:53:44,860 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component dataModelBuilder:dataModelBuilder
+2014-04-30 06:53:44,862 INFO com.spss.ac.stpscore.STPScoreComponent: getDescriptor
+2014-04-30 06:53:44,863 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component stp:score_
+2014-04-30 06:53:44,865 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF component tse:tse_mapper_rep
+2014-04-30 06:53:44,870 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director predictorimportance:predictorimportance
+2014-04-30 06:53:44,872 INFO com.spss.ac.tcm.modeling.TCMDirector: +
+2014-04-30 06:53:44,872 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tcm:tcm
+2014-04-30 06:53:44,875 INFO com.spss.ac.tse.TSEDirector: Enter getDescriptor
+2014-04-30 06:53:44,875 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tse:tse
+2014-04-30 06:53:44,877 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director joindirector:director
+2014-04-30 06:53:44,880 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director complexSampling:director
+2014-04-30 06:53:44,882 INFO com.spss.ac.stpscore.STPScoreIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:44,883 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director stp:score
+2014-04-30 06:53:44,885 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director distinct:director
+2014-04-30 06:53:44,890 INFO com.spss.ac.linear.LinearIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:44,890 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director linear:linear
+2014-04-30 06:53:44,892 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director aggregate:director
+2014-04-30 06:53:44,895 INFO com.spss.ac.descriptives.DescriptivesIterativeExecutionDirector: Enter getDescriptor
+2014-04-30 06:53:44,895 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director descriptives:descriptives
+2014-04-30 06:53:44,897 INFO com.spss.ac.stemdp.stemdp.centroid.CentroidExecutionDirector: getDescriptor
+2014-04-30 06:53:44,898 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director stemdp:centroid
+2014-04-30 06:53:44,900 INFO com.spss.ac.tsdp.TSDPDirector: Enter getDescriptor
+2014-04-30 06:53:44,901 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tsdp:tsdp
+2014-04-30 06:53:44,903 INFO com.spss.ac.tsc.TSCDirector: Start getDescriptor()
+2014-04-30 06:53:44,903 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tsc:tscluster
+2014-04-30 06:53:44,908 INFO com.spss.ac.descriptives.selectionstrategy.SelectionStrategyExecutionDirector: Enter getDescriptor
+2014-04-30 06:53:44,908 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director descriptives:selectionStrategy
+2014-04-30 06:53:44,910 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director mrsampling:director
+2014-04-30 06:53:44,913 INFO com.spss.ac.tree.chaid.ChaidIterativeExecutionDirector: getDescriptor()
+2014-04-30 06:53:44,913 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tree:chaid
+2014-04-30 06:53:44,916 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director ta:ta
+2014-04-30 06:53:44,918 INFO com.spss.ac.tcm.modeling.TCMWorkerDirector: +
+2014-04-30 06:53:44,918 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tcm:worker
+2014-04-30 06:53:44,921 INFO com.spss.ac.cluster.twostep.TwoStepIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:44,921 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director cluster:twostep
+2014-04-30 06:53:44,923 INFO com.spss.ac.rtsdp.RTSDPDirector: Enter getDescriptor
+2014-04-30 06:53:44,923 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director rtsdp:rtsdp
+2014-04-30 06:53:44,928 INFO com.spss.ac.stp.STPIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:44,928 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director stp:stp
+2014-04-30 06:53:44,931 INFO com.spss.ac.generalizedlinear.GLEIterativeExecutionDirector: Enter getDescriptor
+2014-04-30 06:53:44,931 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director generalizedLinear:generalizedLinear
+2014-04-30 06:53:44,933 INFO com.spss.ac.stemdp.stemdp.StemdpExecutionDirector: getDescriptor
+2014-04-30 06:53:44,933 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director stemdp:dp
+2014-04-30 06:53:44,936 INFO com.spss.ac.association.wrapper.StarIterativeExecutionDirector: [star director] getDescriptor()
+2014-04-30 06:53:44,936 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director star:star
+2014-04-30 06:53:44,938 INFO com.spss.ac.stemdp.stemdp.regular.ParseRegularIterativeExecutionDirector: getDescriptor
+2014-04-30 06:53:44,939 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director stemdp:regular
+2014-04-30 06:53:44,941 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director uniondirector:director
+2014-04-30 06:53:44,944 INFO com.spss.ac.tcm.analysis.sa.SADirector: getDescriptor
+2014-04-30 06:53:44,944 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tcm:sa
+2014-04-30 06:53:44,947 INFO com.spss.ac.smartreports.SRIterativeExecutionDirector: Enter getDescriptor
+2014-04-30 06:53:44,947 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director smartreports:smartreports
+2014-04-30 06:53:44,949 INFO com.spss.ac.tcm.analysis.rca.RCADirector: getDescriptor
+2014-04-30 06:53:44,949 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tcm:rca
+2014-04-30 06:53:44,952 INFO com.spss.ac.tcm.analysis.od.ODDirector: getDescriptor
+2014-04-30 06:53:44,952 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tcm:od
+2014-04-30 06:53:44,954 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director tcm:score
+2014-04-30 06:53:44,957 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director sortdirector:director
+2014-04-30 06:53:44,959 INFO com.ibm.spss.afcomponentloader.AFComponentLoaderModule: Found AF director gttdirector:director
+2014-04-30 06:53:46,899 INFO com.spss.ae.componentframework.wrapper.impl.LibraryLoader: Loading library from: /sdf/mrlocal/bi21d/taskTracker/biadmin4/jobcache/job_201404250945_0014/attempt_201404250945_0014_m_000000_0/work/./libcfwrapper.so
+2014-04-30 06:53:46,908 INFO ComponentFramework: Using application classloader
+2014-04-30 06:53:47,397 INFO com.spss.mapreduce.hadoop.job.HadoopMapper: StopRecordsIteration with : Done poll processing
+2014-04-30 06:53:47,398 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2014-04-30 06:53:47,431 INFO org.apache.hadoop.io.compress.zlib.ZlibFactory: Successfully loaded & initialized native-zlib library
+2014-04-30 06:53:47,432 INFO org.apache.hadoop.io.compress.CodecPool: Got brand-new compressor
+2014-04-30 06:53:47,445 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2014-04-30 06:53:47,448 INFO org.apache.hadoop.mapred.Task: Task:attempt_201404250945_0014_m_000000_0 is done. And is in the process of commiting
+2014-04-30 06:53:47,587 INFO org.apache.hadoop.mapred.Task: Task 'attempt_201404250945_0014_m_000000_0' done.
+2014-04-30 06:53:47,590 INFO org.apache.hadoop.mapred.TaskLogsTruncater: Initializing logs' truncater with mapRetainSize=-1 and reduceRetainSize=-1
