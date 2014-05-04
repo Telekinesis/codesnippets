@@ -12,6 +12,6 @@ public class TestTimestamp
 	System.out.println(Timestamp.valueOf("2014-05-01 7:41:15").getTime());
 	System.out.println(Timestamp.valueOf("2014-05-01 9:05:51").getTime());
 	
-	System.out.println(new Timestamp(1398906390 * 1000L));
+	System.out.println(new Timestamp(1399247927  * 1000L));
     }
 }
